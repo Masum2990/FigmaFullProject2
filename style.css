@@ -1,0 +1,313 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/*********** Header-section************ */
+
+
+
+header{
+  background-color:#D6EEFF;
+}
+
+.ageland-one{
+  width: 227.067px;
+}
+.header-section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1224px;
+  margin: auto;
+  padding: 40px 0px;
+}
+.nav-list ul{
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+.nav-list ul li a{
+  color: #224259;
+  font-family: SF UI Display;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  margin-right: 40px;
+  text-decoration: none;
+}
+.nav-list ul li button{
+  display: flex;
+  align-items: center;
+  border: none;
+  padding: 16px 24px;
+  border-radius: 77px;
+  background: #5693BF;
+  color:  #FFF;
+  text-align: right;
+  font-family: SF UI Display;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  cursor: pointer;
+}
+.horijontal-one{
+
+
+  opacity: 0.15;
+  background: #5693BF;
+}
+.header-two{
+  text-align: center;
+  padding-top: 50px;
+}
+.header-two h4{
+  color: #224259;
+  font-family: SF UI Display;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  word-spacing: 2px;
+  padding-bottom: 10px;
+}
+.header-two h1{
+  color: #224259;
+  text-align: center;
+  font-family: Varent Grotesk;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%;
+  padding-bottom: 20px;
+}
+.dak-one{
+  margin-bottom:50px ;
+}
+
+
+/* ******************Section-one******************* */
+main{
+  background-color:#F2F9FF;
+  padding-bottom: 150px;
+}
+.img-one{
+  width: 392px;
+}
+.parent-one{
+  display: flex;
+  justify-content: space-between;
+  width: 1224px;
+  margin: auto;
+  padding-top: 50px;
+}
+.everything h2{
+  width: 392px;
+  color: #224259;
+  font-family: Varent Grotesk;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  margin: 20px 0px;
+}
+.everything p{
+  width: 392px;
+  color: #224259;
+  font-family: SF UI Display;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+
+/* ***********Section-Two***************** */
+
+.img-two{
+  width: 392px;
+}
+.parent-two{
+  display: flex;
+  justify-content: space-between;
+  width: 1224px;
+  margin: auto;
+  padding-top: 50px;
+  position: relative;
+}
+.teer{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  width: 158px;
+  height: 158px;
+  cursor: pointer;
+
+}
+.best-one h2{
+  width: 392px;
+  color: #224259;
+  font-family: Varent Grotesk;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  margin: 20px 0px;
+}
+.best-one p{
+  width: 392px;
+  color: #224259;
+  font-family: SF UI Display;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+.digital-one h2{
+  color:  #F17999;
+  font-family: Varent Grotesk;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  text-decoration-line: underline;
+  width: 392px;
+  margin: 20px 0px;
+}
+.digital-one p{
+  width: 392px;
+  color: #224259;
+  font-family: SF UI Display;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+
+/* ***********Section-three***************** */
+
+
+.logo-two{
+  margin-left: 930px;
+  overflow: hidden;
+}
+
+
+/************* Section-four************* */
+
+.parent-three{
+  display: flex;
+  justify-content: center;
+}
+.left{
+  position: relative;
+  cursor: pointer;
+  margin-right: 20px;
+
+  
+}
+.left-arrow{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 24px;
+  height: 24px;
+  text-align: center;
+}
+
+
+/**************** Footer******************** */
+footer{
+  background-color:#224259;
+}
+.parent-footer{
+ width: 1224px;
+ margin: auto;
+ padding-top: 100px;
+}
+.left-one{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 70px;
+}
+.products-fit h4{
+  color: #FFF;
+  font-family: Varent Grotesk;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  padding-bottom: 30px;
+}
+.products-fit p{
+  color: #FFF;
+  font-family: SF UI Display;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  padding: 8px 0px;
+}
+.squarespace {
+padding-top: 80px;
+}
+.horijontal-two{
+  width: 1224px;
+  opacity: 0.2;
+  background: #FFF;
+  margin: auto;
+}
+.parent-right{
+  display: flex;
+  width: 1224px;
+  margin: auto;
+  padding: 100px 0px;
+}
+.ageland-two p{
+  width: 600px;
+  color:  #FFF;
+  font-family: SF UI Display;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  margin: 40px 0px 20px 0px;
+}
+.say-hi{
+  margin-left: 370px;
+}
+.say-hi h2{
+  color: #FFF;
+  font-family: Varent Grotesk;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+}
+.say-hi p{
+  color: #FFF;
+  font-family: SF UI Display;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  cursor: pointer;
+  margin: 40px 0px 20px 0px;
+}
+.ageland-two svg{
+  cursor: pointer;
+}
+.say-hi span{
+  padding: 0px 15px 0px 0px;
+}
